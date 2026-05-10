@@ -1,97 +1,169 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Homepage - Fesdio</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav {
-            text-align: center;
-            margin: 10px 0;
-        }
-
-        nav a {
-            margin: 0 10px;
-            font-size: 16px;
-        }
-
-        main {
-            width: 70%;
-            margin: auto;
-        }
-
-        h1 {
-            font-size: 32px;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-            text-align: justify;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Portfolio personal Mahasiswa Teknik Informatika dengan fokus pada perjalanan belajar, skill, dan kontak.">
+  <title>Portfolio | Mahasiswa Teknik Informatika</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <div class="site-bg" aria-hidden="true">
+    <span class="glow glow-one"></span>
+    <span class="glow glow-two"></span>
+    <span class="grid-overlay"></span>
+  </div>
 
-<header>
-    <h1>Selamat datang di web saya 0_0 </h1>
-</header>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Kembali ke bagian awal">
+      <span class="brand-mark">IF</span>
+      <span>Portfolio</span>
+    </a>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a href="#about">Tentang</a>
+      <a href="#journey">Blog</a>
+      <a href="#Gallery">Gallery</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Personal Portfolio Fesdio. K. Takumansang</span>
+        </div>
+        <h1>Mahasiswa Teknik Informatika yang membangun masa depan lewat <span>teknologi.</span></h1>
+        <p class="hero-copy">
+          Saya membangun fondasi di pemrograman, web development, dan cara berpikir sistematis untuk menciptakan solusi digital yang bersih, berguna, dan mudah dipahami.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:fesdiotakumansang026@student.unsrat.ac.id">Hubungi Saya</a>
+          <a class="btn btn-secondary" href="#journey">Lihat Perjalanan</a>
+        </div>
+        <div class="hero-stats" aria-label="Ringkasan profil">
+          <div>
+            <strong>IT</strong>
+            <span>Student</span>
+          </div>
+          <div>
+            <strong>Web</strong>
+            <span>Focus Area</span>
+          </div>
+          <div>
+            <strong>2026</strong>
+            <span>Portfolio</span>
+          </div>
+        </div>
+      </div>
 
-<hr>
+      <div class="hero-visual reveal" data-tilt>
+        <div class="hero-orbit" aria-hidden="true"></div>
+        <div class="profile-card">
+          <div class="profile-frame">
+            <div class="profile-image">
+              <img src="img/Fotoken.png" alt="Foto profil Fesdio Kenry Takumansang">
+            </div>
+          </div>
+          <div class="profile-meta">
+            <p class="profile-name">Fesdio Kenry Takumansang</p>
+            <p>Mahasiswa Teknik Informatika</p>
+          </div>
+          <div class="status-row">
+            <span class="pulse"></span>
+            <span>Open to learn, build, and collaborate</span>
+          </div>
+        </div>
+        <div class="floating-chip chip-one">Problem Solving</div>
+        <div class="floating-chip chip-two">Html</div>
+      </div>
+    </section>
 
-<main>
-    <h2>Tentang Saya</h2>
+    <section class="section split-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Tentang Saya</p>
+        <h2>Menggabungkan rasa ingin tahu, logika, dan konsistensi belajar.</h2>
+      </div>
+      <div class="section-body reveal">
+        <p>
+          Saya adalah mahasiswa Teknik Informatika yang sedang mengembangkan kemampuan dalam pemrograman, pengembangan web, dan pemecahan masalah. Portfolio ini menjadi ruang untuk merangkum arah belajar, skill, dan progres saya dari waktu ke waktu.
+        </p>
+        <p>
+          Fokus saya saat ini adalah memahami dasar yang kuat, menulis kode yang rapi, dan membangun kebiasaan belajar yang bisa menghasilkan karya nyata.
+        </p>
+      </div>
+    </section>
 
-    <p>
-        Halo! Nama saya Fesdio. Saya adalah seorang mahasiswa yang saat ini sedang
-        mendalami bidang Pemrograman Web dan memiliki ketertarikan yang besar
-        terhadap dunia teknologi informasi. Saya senang mempelajari hal-hal baru,
-        terutama yang berkaitan dengan pengembangan website dan aplikasi.
-        Website ini saya buat sebagai portofolio sederhana untuk menampilkan
-        hasil belajar, pengalaman, serta perkembangan kemampuan saya.
-    </p>
+    <section class="section" id="journey">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">Blog</p>
+        <h2>乂 My Blog 乂</h2>
+      </div>
+      <div class="journey-grid">
+        <article class="journey-card reveal">
+          <span class="card-number">01</span>
+          <h3>Apa pentingnyaPemrograman</h3>
+          <p>Pemrograman penting karena digunakan untuk membuat aplikasi, website, game, dan berbagai teknologi yang membantu pekerjaan manusia menjadi lebih cepat dan efisien. Selain itu, pemrograman juga melatih kemampuan berpikir logis, memecahkan masalah, dan kreativitas dalam membuat solusi digital.</p>
+        </article>
+        <article class="journey-card reveal">
+          <span class="card-number">02</span>
+          <h3>Web Development</h3>
+          <p>Web development adalah proses membuat dan mengembangkan website agar bisa digunakan di internet. Web development mencakup tampilan website (frontend), fungsi dan sistem di belakangnya (backend), serta pengelolaan database.</p>
+        </article>
+        <article class="journey-card reveal">
+          <span class="card-number">03</span>
+          <h3>Drag Motor</h3>
+          <p>Drag motor adalah balapan sepeda motor di lintasan lurus dengan jarak tertentu untuk menguji kecepatan dan akselerasi motor. Tujuannya adalah menentukan siapa yang paling cepat mencapai garis finish. Biasanya drag motor dilakukan di sirkuit khusus agar aman dan sesuai aturan..</p>
+        </article>
+      </div>
+    </section>
 
-    <p>
-        Di website ini kamu bisa melihat galeri foto, artikel blog,
-        dan cara menghubungi saya.
-    </p>
-</main>
+<section class="section" id="Gallery">
+  <div class="section-heading centered reveal">
+    <p class="eyebrow">Galeri</p>
+    <h2>Gallery Foto Saya</h2>
+  </div>
 
-<hr>
+  <div class="gallery-grid reveal">
+    <button class="gallery-card" type="button" aria-label="Buka Foto 1">
+      <img src="img/Foto1.png" alt="Foto 1">
+    </button>
 
-<footer>
-    <p>Copyright 2026 - Fesdio</p>
-</footer>
+    <button class="gallery-card" type="button" aria-label="Buka Foto 2">
+      <img src="img/Foto2.png" alt="Foto 2">
+    </button>
 
+    <button class="gallery-card" type="button" aria-label="Buka Foto 3">
+      <img src="img/Foto3.png" alt="Foto 3">
+    </button>
+  </div>
+</section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Kontak</p>
+        <h2>Mari terhubung dan mulai percakapan.</h2>
+        <p>
+          Silakan hubungi saya melalui email atau WhatsApp untuk diskusi, kolaborasi, atau percakapan seputar teknologi.
+        </p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:fesdiotakumansang026@student.unsrat.ac.id">fesdiotakumansang026@student.unsrat.ac.id</a>
+          <a class="btn btn-secondary" href="https://wa.me/6281245836729" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Fesdio Kenry Takumansang. Dibuat sebagai portfolio personal.</p>
+  </footer>
+
+  <div class="lightbox" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Preview foto galeri" hidden>
+    <button class="lightbox-close" type="button" aria-label="Tutup preview">&times;</button>
+    <img class="lightbox-image" alt="">
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
